@@ -1,0 +1,349 @@
+{"timestamp":"2024-09-25T04:56:48.739Z","level":"info","moduleName":"InstallerWinProcess","pid":22228,"message":"trying to connect to the ipc server"}
+{"timestamp":"2024-09-25T04:56:48.739Z","level":"debug","moduleName":"UnityIPCClient","pid":22228,"message":"connecting to IPC Server Unity-hubInstallServer"}
+{"timestamp":"2024-09-25T04:56:49.103Z","level":"debug","moduleName":"InstallerWinProcess","pid":22228,"message":"Validation strategy: {\"destination\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\",\"destinationFilename\":\"UnitySetup64-2022.3.47f1.exe\",\"installerFilename\":\"UnitySetup64-2022.3.47f1.exe\",\"installerPath\":\"C:\\\\Users\\\\Erandeni\\\\AppData\\\\Local\\\\Temp\\\\unityhub-8611b110-7af4-11ef-a66d-5776789d96c5\",\"installerSizeInBytes\":3645776896,\"type\":0,\"uid\":\"2022.3.47f1-x86_64\",\"editorUniqueId\":{\"version\":\"2022.3.47f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-09-25T04:56:49.103Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-09-25T04:56:49.104Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-09-25T04:56:49.105Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Verifying installation type: EDITOR"}
+{"timestamp":"2024-09-25T04:56:49.105Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Verifying absence of an existing editor installation..."}
+{"timestamp":"2024-09-25T04:56:49.108Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Existing Editor Installation Check: Passed"}
+{"timestamp":"2024-09-25T04:56:49.108Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-09-25T04:56:49.108Z","level":"debug","moduleName":"Disk Validation Strategy","pid":22228,"message":"Destination Path: C:\\Program Files\\Unity\\Hub\\Editor"}
+{"timestamp":"2024-09-25T04:56:49.114Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-09-25T04:56:49.115Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-09-25T04:56:49.115Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Required space: 3645776896 bytes / 3.4 GB..."}
+{"timestamp":"2024-09-25T04:56:49.116Z","level":"debug","moduleName":"Disk Validation Strategy","pid":22228,"message":"Available disk Space: 321475395584 bytes"}
+{"timestamp":"2024-09-25T04:56:49.116Z","level":"debug","moduleName":"Disk Validation Strategy","pid":22228,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-09-25T04:56:49.116Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-09-25T04:56:49.116Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\Erandeni\\AppData\\Local\\Temp\\unityhub-8611b110-7af4-11ef-a66d-5776789d96c5\\UnitySetup64-2022.3.47f1.exe"}
+{"timestamp":"2024-09-25T04:56:49.117Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-09-25T04:56:49.117Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-09-25T04:56:49.117Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-09-25T04:56:49.117Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Checksum check: Passed"}
+{"timestamp":"2024-09-25T04:56:49.117Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-09-25T04:56:49.125Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":22228,"message":"beforeEditorInstallation"}
+{"timestamp":"2024-09-25T04:56:49.125Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":22228,"message":"execInstaller"}
+{"timestamp":"2024-09-25T04:56:49.125Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":22228,"message":"installFromExe"}
+{"timestamp":"2024-09-25T04:56:49.125Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":22228,"message":"install C:\\Users\\Erandeni\\AppData\\Local\\Temp\\unityhub-8611b110-7af4-11ef-a66d-5776789d96c5\\UnitySetup64-2022.3.47f1.exe /S /D=C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1"}
+{"timestamp":"2024-09-25T05:11:14.386Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":22228,"message":"afterEditorInstallation"}
+{"timestamp":"2024-09-25T05:11:14.387Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":22228,"message":"Check DotNet Core Prerequisites, os release [ '10', '0', '22631' ]"}
+{"timestamp":"2024-09-25T05:11:14.387Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":22228,"message":"major 10 minor 0"}
+{"timestamp":"2024-09-25T05:11:14.387Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":22228,"message":"shouldInstallKB2999226:  false shouldInstallKB2533623:  false"}
+{"timestamp":"2024-09-25T05:11:14.390Z","level":"info","moduleName":"InstallerWinProcess","pid":22228,"message":"Creating modules.json at: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-09-25T05:11:18.296Z","level":"debug","moduleName":"InstallerWinProcess","pid":22228,"message":"Validation strategy: {\"destination\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\",\"destinationFilename\":\"vs_Community.exe\",\"installerFilename\":\"vs_Community.exe\",\"installerPath\":\"C:\\\\Users\\\\Erandeni\\\\AppData\\\\Local\\\\Temp\\\\unityhub-861385d0-7af4-11ef-a66d-5776789d96c5\",\"installerSizeInBytes\":1699733504,\"type\":1,\"uid\":\"visualstudio\",\"editorUniqueId\":{\"version\":\"2022.3.47f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-09-25T05:11:18.296Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-09-25T05:11:18.296Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-09-25T05:11:18.296Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Verifying installation type: EDITOR_MODULE"}
+{"timestamp":"2024-09-25T05:11:18.297Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Skipping module destination check for whitelisted item: visualstudio"}
+{"timestamp":"2024-09-25T05:11:18.297Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Skipping modules.json check for whitelisted item: visualstudio"}
+{"timestamp":"2024-09-25T05:11:18.297Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-09-25T05:11:18.297Z","level":"debug","moduleName":"Disk Validation Strategy","pid":22228,"message":"Destination Path: C:\\Program Files\\Unity\\Hub\\Editor"}
+{"timestamp":"2024-09-25T05:11:18.298Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-09-25T05:11:18.298Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-09-25T05:11:18.298Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Required space: 1699733504 bytes / 1.58 GB..."}
+{"timestamp":"2024-09-25T05:11:18.298Z","level":"debug","moduleName":"Disk Validation Strategy","pid":22228,"message":"Available disk Space: 328374235136 bytes"}
+{"timestamp":"2024-09-25T05:11:18.298Z","level":"debug","moduleName":"Disk Validation Strategy","pid":22228,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-09-25T05:11:18.298Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-09-25T05:11:18.298Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\Erandeni\\AppData\\Local\\Temp\\unityhub-861385d0-7af4-11ef-a66d-5776789d96c5\\vs_Community.exe"}
+{"timestamp":"2024-09-25T05:11:18.299Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-09-25T05:11:18.299Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-09-25T05:11:18.299Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-09-25T05:11:18.299Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Checksum check: Passed"}
+{"timestamp":"2024-09-25T05:11:18.299Z","level":"info","moduleName":"Disk Validation Strategy","pid":22228,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-09-25T05:11:18.303Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":22228,"message":"beforeModuleInstallation"}
+{"timestamp":"2024-09-25T05:11:18.303Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":22228,"message":"The module visualstudio does not have a destination"}
+{"timestamp":"2024-09-25T05:11:18.303Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":22228,"message":"execInstaller"}
+{"timestamp":"2024-09-25T05:11:18.303Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":22228,"message":"installFromExe"}
+{"timestamp":"2024-09-25T05:11:18.303Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":22228,"message":"install C:\\Users\\Erandeni\\AppData\\Local\\Temp\\unityhub-861385d0-7af4-11ef-a66d-5776789d96c5\\vs_Community.exe /S "}
+{"timestamp":"2024-09-25T05:14:11.523Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":22228,"message":"afterModuleInstallation"}
+{"timestamp":"2024-09-25T05:14:11.525Z","level":"info","moduleName":"InstallerWinProcess","pid":22228,"message":"Updating modules.json file at: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:48:43.679Z","level":"info","moduleName":"InstallerWinProcess","pid":49068,"message":"trying to connect to the ipc server"}
+{"timestamp":"2024-10-24T17:48:43.680Z","level":"debug","moduleName":"UnityIPCClient","pid":49068,"message":"connecting to IPC Server Unity-hubInstallServer"}
+{"timestamp":"2024-10-24T17:48:43.707Z","level":"debug","moduleName":"InstallerWinProcess","pid":49068,"message":"Validation strategy: {\"destination\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2022.3.47f1\",\"destinationFilename\":\"UnitySetup-Android-Support-for-Editor-2022.3.47f1.exe\",\"installerFilename\":\"UnitySetup-Android-Support-for-Editor-2022.3.47f1.exe\",\"installerPath\":\"C:\\\\Users\\\\Erandeni\\\\AppData\\\\Local\\\\Temp\\\\unityhub-b9243210-922f-11ef-a541-873628b263f7\",\"installerSizeInBytes\":474868736,\"type\":1,\"uid\":\"android\",\"editorUniqueId\":{\"version\":\"2022.3.47f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-10-24T17:48:43.708Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-10-24T17:48:43.708Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-10-24T17:48:43.709Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying installation type: EDITOR_MODULE"}
+{"timestamp":"2024-10-24T17:48:43.709Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Skipping module destination check for all Windows binary installers: android"}
+{"timestamp":"2024-10-24T17:48:43.709Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying selected value of module in modules.json at C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:48:43.715Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"modules.json Check: Passed"}
+{"timestamp":"2024-10-24T17:48:43.715Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-10-24T17:48:43.716Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1"}
+{"timestamp":"2024-10-24T17:48:43.717Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-10-24T17:48:43.718Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-10-24T17:48:43.718Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Required space: 474868736 bytes / 452.87 MB..."}
+{"timestamp":"2024-10-24T17:48:43.718Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available disk Space: 238851895296 bytes"}
+{"timestamp":"2024-10-24T17:48:43.718Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-10-24T17:48:43.718Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-10-24T17:48:43.718Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\Erandeni\\AppData\\Local\\Temp\\unityhub-b9243210-922f-11ef-a541-873628b263f7\\UnitySetup-Android-Support-for-Editor-2022.3.47f1.exe"}
+{"timestamp":"2024-10-24T17:48:43.719Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-10-24T17:48:43.719Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-10-24T17:48:43.719Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-10-24T17:48:43.719Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum check: Passed"}
+{"timestamp":"2024-10-24T17:48:43.719Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-10-24T17:48:43.724Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"beforeModuleInstallation"}
+{"timestamp":"2024-10-24T17:48:43.724Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"Creating the folder of android, if needed: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1"}
+{"timestamp":"2024-10-24T17:48:43.725Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"execInstaller"}
+{"timestamp":"2024-10-24T17:48:43.725Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"installFromExe"}
+{"timestamp":"2024-10-24T17:48:43.725Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"install C:\\Users\\Erandeni\\AppData\\Local\\Temp\\unityhub-b9243210-922f-11ef-a541-873628b263f7\\UnitySetup-Android-Support-for-Editor-2022.3.47f1.exe /S /D=C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1"}
+{"timestamp":"2024-10-24T17:49:33.865Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"afterModuleInstallation"}
+{"timestamp":"2024-10-24T17:49:33.868Z","level":"info","moduleName":"InstallerWinProcess","pid":49068,"message":"Updating modules.json file at: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:49:39.110Z","level":"debug","moduleName":"InstallerWinProcess","pid":49068,"message":"Validation strategy: {\"destination\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2022.3.47f1\",\"destinationFilename\":\"jdk11.0.14.1-1_85218201fea144521d643808d167605d6d46cd4fe44ee4001991a3a4b76fdd64.zip\",\"installerFilename\":\"jdk11.0.14.1-1_85218201fea144521d643808d167605d6d46cd4fe44ee4001991a3a4b76fdd64.zip\",\"installerPath\":\"C:\\\\Users\\\\Erandeni\\\\AppData\\\\Local\\\\Temp\\\\unityhub-b9262de0-922f-11ef-a541-873628b263f7\",\"installerSizeInBytes\":120395628,\"type\":1,\"uid\":\"android-open-jdk-11.0.14.1+1\",\"editorUniqueId\":{\"version\":\"2022.3.47f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-10-24T17:49:39.110Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-10-24T17:49:39.110Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-10-24T17:49:39.110Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying installation type: EDITOR_MODULE"}
+{"timestamp":"2024-10-24T17:49:39.110Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying the module destination... id: 'android-open-jdk-11.0.14.1+1', destination: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK"}
+{"timestamp":"2024-10-24T17:49:39.111Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Editor Module Installation Destination Check: Passed"}
+{"timestamp":"2024-10-24T17:49:39.111Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying selected value of module in modules.json at C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:49:39.114Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"modules.json Check: Passed"}
+{"timestamp":"2024-10-24T17:49:39.114Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-10-24T17:49:39.114Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK"}
+{"timestamp":"2024-10-24T17:49:39.114Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-10-24T17:49:39.114Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-10-24T17:49:39.114Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Required space: 120395628 bytes / 114.82 MB..."}
+{"timestamp":"2024-10-24T17:49:39.115Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available disk Space: 236922974208 bytes"}
+{"timestamp":"2024-10-24T17:49:39.115Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-10-24T17:49:39.115Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-10-24T17:49:39.115Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\Erandeni\\AppData\\Local\\Temp\\unityhub-b9262de0-922f-11ef-a541-873628b263f7\\jdk11.0.14.1-1_85218201fea144521d643808d167605d6d46cd4fe44ee4001991a3a4b76fdd64.zip"}
+{"timestamp":"2024-10-24T17:49:39.115Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-10-24T17:49:39.115Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-10-24T17:49:39.115Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-10-24T17:49:39.115Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum check: Passed"}
+{"timestamp":"2024-10-24T17:49:39.115Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-10-24T17:49:39.117Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"beforeModuleInstallation"}
+{"timestamp":"2024-10-24T17:49:39.117Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"Creating the folder of android-open-jdk-11.0.14.1+1, if needed: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK"}
+{"timestamp":"2024-10-24T17:49:39.118Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"execInstaller"}
+{"timestamp":"2024-10-24T17:49:39.118Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"installFromZip"}
+{"timestamp":"2024-10-24T17:49:41.381Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"unzip finished"}
+{"timestamp":"2024-10-24T17:49:41.381Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"afterModuleInstallation"}
+{"timestamp":"2024-10-24T17:49:41.383Z","level":"info","moduleName":"InstallerWinProcess","pid":49068,"message":"Updating modules.json file at: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:54:39.330Z","level":"debug","moduleName":"InstallerWinProcess","pid":49068,"message":"Validation strategy: {\"destination\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2022.3.47f1\",\"destinationFilename\":\"sdk-tools-windows-4333796.zip\",\"installerFilename\":\"sdk-tools-windows-4333796.zip\",\"installerPath\":\"C:\\\\Users\\\\Erandeni\\\\AppData\\\\Local\\\\Temp\\\\unityhub-b9298940-922f-11ef-a541-873628b263f7\",\"installerSizeInBytes\":1284178611,\"type\":1,\"uid\":\"android-sdk-ndk-tools\",\"editorUniqueId\":{\"version\":\"2022.3.47f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-10-24T17:54:39.331Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-10-24T17:54:39.331Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-10-24T17:54:39.331Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying installation type: EDITOR_MODULE"}
+{"timestamp":"2024-10-24T17:54:39.331Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying the module destination... id: 'android-sdk-ndk-tools', destination: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK"}
+{"timestamp":"2024-10-24T17:54:39.332Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Editor Module Installation Destination Check: Passed"}
+{"timestamp":"2024-10-24T17:54:39.332Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying selected value of module in modules.json at C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:54:39.333Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"modules.json Check: Passed"}
+{"timestamp":"2024-10-24T17:54:39.334Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-10-24T17:54:39.334Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK"}
+{"timestamp":"2024-10-24T17:54:39.334Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-10-24T17:54:39.335Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-10-24T17:54:39.335Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Required space: 1284178611 bytes / 1.2 GB..."}
+{"timestamp":"2024-10-24T17:54:39.335Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available disk Space: 235689545728 bytes"}
+{"timestamp":"2024-10-24T17:54:39.335Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-10-24T17:54:39.335Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-10-24T17:54:39.335Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\Erandeni\\AppData\\Local\\Temp\\unityhub-b9298940-922f-11ef-a541-873628b263f7\\sdk-tools-windows-4333796.zip"}
+{"timestamp":"2024-10-24T17:54:39.335Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-10-24T17:54:39.336Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-10-24T17:54:39.336Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-10-24T17:54:39.336Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum check: Passed"}
+{"timestamp":"2024-10-24T17:54:39.336Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-10-24T17:54:39.344Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"beforeModuleInstallation"}
+{"timestamp":"2024-10-24T17:54:39.344Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"Creating the folder of android-sdk-ndk-tools, if needed: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK"}
+{"timestamp":"2024-10-24T17:54:39.346Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"execInstaller"}
+{"timestamp":"2024-10-24T17:54:39.346Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"installFromZip"}
+{"timestamp":"2024-10-24T17:54:42.960Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"unzip finished"}
+{"timestamp":"2024-10-24T17:54:42.960Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"afterModuleInstallation"}
+{"timestamp":"2024-10-24T17:54:42.962Z","level":"info","moduleName":"InstallerWinProcess","pid":49068,"message":"Updating modules.json file at: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:54:45.329Z","level":"debug","moduleName":"InstallerWinProcess","pid":49068,"message":"Validation strategy: {\"destination\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2022.3.47f1\",\"destinationFilename\":\"platform-35_r01.zip\",\"installerFilename\":\"platform-35_r01.zip\",\"installerPath\":\"C:\\\\Users\\\\Erandeni\\\\AppData\\\\Local\\\\Temp\\\\unityhub-b926f130-922f-11ef-a541-873628b263f7\",\"installerSizeInBytes\":64281654,\"type\":1,\"uid\":\"android-sdk-platforms-35\",\"editorUniqueId\":{\"version\":\"2022.3.47f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-10-24T17:54:45.329Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-10-24T17:54:45.329Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-10-24T17:54:45.329Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying installation type: EDITOR_MODULE"}
+{"timestamp":"2024-10-24T17:54:45.330Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying the module destination... id: 'android-sdk-platforms-35', destination: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/platforms"}
+{"timestamp":"2024-10-24T17:54:45.330Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Editor Module Installation Destination Check: Passed"}
+{"timestamp":"2024-10-24T17:54:45.330Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying selected value of module in modules.json at C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:54:45.332Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"modules.json Check: Passed"}
+{"timestamp":"2024-10-24T17:54:45.332Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-10-24T17:54:45.332Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/platforms"}
+{"timestamp":"2024-10-24T17:54:45.333Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-10-24T17:54:45.333Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-10-24T17:54:45.333Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Required space: 64281654 bytes / 61.3 MB..."}
+{"timestamp":"2024-10-24T17:54:45.334Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available disk Space: 235641974784 bytes"}
+{"timestamp":"2024-10-24T17:54:45.334Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-10-24T17:54:45.334Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-10-24T17:54:45.334Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\Erandeni\\AppData\\Local\\Temp\\unityhub-b926f130-922f-11ef-a541-873628b263f7\\platform-35_r01.zip"}
+{"timestamp":"2024-10-24T17:54:45.334Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-10-24T17:54:45.334Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-10-24T17:54:45.334Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-10-24T17:54:45.334Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum check: Passed"}
+{"timestamp":"2024-10-24T17:54:45.334Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-10-24T17:54:45.336Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"beforeModuleInstallation"}
+{"timestamp":"2024-10-24T17:54:45.336Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"Creating the folder of android-sdk-platforms-35, if needed: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/platforms"}
+{"timestamp":"2024-10-24T17:54:45.336Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"execInstaller"}
+{"timestamp":"2024-10-24T17:54:45.336Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"installFromZip"}
+{"timestamp":"2024-10-24T17:54:54.303Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"unzip finished"}
+{"timestamp":"2024-10-24T17:54:54.303Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"afterModuleInstallation"}
+{"timestamp":"2024-10-24T17:54:54.305Z","level":"info","moduleName":"InstallerWinProcess","pid":49068,"message":"Updating modules.json file at: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:54:57.335Z","level":"debug","moduleName":"InstallerWinProcess","pid":49068,"message":"Validation strategy: {\"destination\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2022.3.47f1\",\"destinationFilename\":\"build-tools_r34-windows.zip\",\"installerFilename\":\"build-tools_r34-windows.zip\",\"installerPath\":\"C:\\\\Users\\\\Erandeni\\\\AppData\\\\Local\\\\Temp\\\\unityhub-b9276660-922f-11ef-a541-873628b263f7\",\"installerSizeInBytes\":58253258,\"type\":1,\"uid\":\"android-sdk-build-tools-34.0.0\",\"editorUniqueId\":{\"version\":\"2022.3.47f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-10-24T17:54:57.335Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-10-24T17:54:57.336Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-10-24T17:54:57.336Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying installation type: EDITOR_MODULE"}
+{"timestamp":"2024-10-24T17:54:57.336Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying the module destination... id: 'android-sdk-build-tools-34.0.0', destination: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/build-tools"}
+{"timestamp":"2024-10-24T17:54:57.337Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Editor Module Installation Destination Check: Passed"}
+{"timestamp":"2024-10-24T17:54:57.337Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying selected value of module in modules.json at C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:54:57.338Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"modules.json Check: Passed"}
+{"timestamp":"2024-10-24T17:54:57.338Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-10-24T17:54:57.338Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/build-tools"}
+{"timestamp":"2024-10-24T17:54:57.339Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-10-24T17:54:57.339Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-10-24T17:54:57.339Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Required space: 58253258 bytes / 55.55 MB..."}
+{"timestamp":"2024-10-24T17:54:57.340Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available disk Space: 235536896000 bytes"}
+{"timestamp":"2024-10-24T17:54:57.340Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-10-24T17:54:57.340Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-10-24T17:54:57.340Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\Erandeni\\AppData\\Local\\Temp\\unityhub-b9276660-922f-11ef-a541-873628b263f7\\build-tools_r34-windows.zip"}
+{"timestamp":"2024-10-24T17:54:57.340Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-10-24T17:54:57.340Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-10-24T17:54:57.340Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-10-24T17:54:57.340Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum check: Passed"}
+{"timestamp":"2024-10-24T17:54:57.340Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-10-24T17:54:57.349Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"beforeModuleInstallation"}
+{"timestamp":"2024-10-24T17:54:57.349Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"Creating the folder of android-sdk-build-tools-34.0.0, if needed: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/build-tools"}
+{"timestamp":"2024-10-24T17:54:57.350Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"execInstaller"}
+{"timestamp":"2024-10-24T17:54:57.350Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"installFromZip"}
+{"timestamp":"2024-10-24T17:54:58.797Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"unzip finished"}
+{"timestamp":"2024-10-24T17:54:58.797Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"afterModuleInstallation"}
+{"timestamp":"2024-10-24T17:54:58.810Z","level":"info","moduleName":"InstallerWinProcess","pid":49068,"message":"Updating modules.json file at: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:55:03.343Z","level":"debug","moduleName":"InstallerWinProcess","pid":49068,"message":"Validation strategy: {\"destination\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2022.3.47f1\",\"destinationFilename\":\"platform-33_r02.zip\",\"installerFilename\":\"platform-33_r02.zip\",\"installerPath\":\"C:\\\\Users\\\\Erandeni\\\\AppData\\\\Local\\\\Temp\\\\unityhub-b927b480-922f-11ef-a541-873628b263f7\",\"installerSizeInBytes\":67334130,\"type\":1,\"uid\":\"android-sdk-platforms-33\",\"editorUniqueId\":{\"version\":\"2022.3.47f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-10-24T17:55:03.343Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-10-24T17:55:03.344Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-10-24T17:55:03.344Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying installation type: EDITOR_MODULE"}
+{"timestamp":"2024-10-24T17:55:03.344Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying the module destination... id: 'android-sdk-platforms-33', destination: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/platforms"}
+{"timestamp":"2024-10-24T17:55:03.346Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Editor Module Installation Destination Check: Passed"}
+{"timestamp":"2024-10-24T17:55:03.346Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying selected value of module in modules.json at C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:55:03.348Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"modules.json Check: Passed"}
+{"timestamp":"2024-10-24T17:55:03.348Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-10-24T17:55:03.348Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/platforms"}
+{"timestamp":"2024-10-24T17:55:03.349Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-10-24T17:55:03.349Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-10-24T17:55:03.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Required space: 67334130 bytes / 64.21 MB..."}
+{"timestamp":"2024-10-24T17:55:03.350Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available disk Space: 235429634048 bytes"}
+{"timestamp":"2024-10-24T17:55:03.350Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-10-24T17:55:03.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-10-24T17:55:03.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\Erandeni\\AppData\\Local\\Temp\\unityhub-b927b480-922f-11ef-a541-873628b263f7\\platform-33_r02.zip"}
+{"timestamp":"2024-10-24T17:55:03.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-10-24T17:55:03.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-10-24T17:55:03.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-10-24T17:55:03.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum check: Passed"}
+{"timestamp":"2024-10-24T17:55:03.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-10-24T17:55:03.354Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"beforeModuleInstallation"}
+{"timestamp":"2024-10-24T17:55:03.354Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"Creating the folder of android-sdk-platforms-33, if needed: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/platforms"}
+{"timestamp":"2024-10-24T17:55:03.355Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"execInstaller"}
+{"timestamp":"2024-10-24T17:55:03.355Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"installFromZip"}
+{"timestamp":"2024-10-24T17:55:13.646Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"unzip finished"}
+{"timestamp":"2024-10-24T17:55:13.646Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"afterModuleInstallation"}
+{"timestamp":"2024-10-24T17:55:13.669Z","level":"info","moduleName":"InstallerWinProcess","pid":49068,"message":"Updating modules.json file at: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:55:15.341Z","level":"debug","moduleName":"InstallerWinProcess","pid":49068,"message":"Validation strategy: {\"destination\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2022.3.47f1\",\"destinationFilename\":\"platform-tools_r32.0.0-windows.zip\",\"installerFilename\":\"platform-tools_r32.0.0-windows.zip\",\"installerPath\":\"C:\\\\Users\\\\Erandeni\\\\AppData\\\\Local\\\\Temp\\\\unityhub-b92850c0-922f-11ef-a541-873628b263f7\",\"installerSizeInBytes\":11500000,\"type\":1,\"uid\":\"android-sdk-platform-tools-32.0.0\",\"editorUniqueId\":{\"version\":\"2022.3.47f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-10-24T17:55:15.341Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-10-24T17:55:15.342Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-10-24T17:55:15.342Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying installation type: EDITOR_MODULE"}
+{"timestamp":"2024-10-24T17:55:15.342Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying the module destination... id: 'android-sdk-platform-tools-32.0.0', destination: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK"}
+{"timestamp":"2024-10-24T17:55:15.342Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Editor Module Installation Destination Check: Passed"}
+{"timestamp":"2024-10-24T17:55:15.342Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying selected value of module in modules.json at C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:55:15.344Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"modules.json Check: Passed"}
+{"timestamp":"2024-10-24T17:55:15.344Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-10-24T17:55:15.344Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK"}
+{"timestamp":"2024-10-24T17:55:15.344Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-10-24T17:55:15.345Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-10-24T17:55:15.345Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Required space: 11500000 bytes / 10.97 MB..."}
+{"timestamp":"2024-10-24T17:55:15.345Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available disk Space: 235314221056 bytes"}
+{"timestamp":"2024-10-24T17:55:15.345Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-10-24T17:55:15.345Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-10-24T17:55:15.345Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\Erandeni\\AppData\\Local\\Temp\\unityhub-b92850c0-922f-11ef-a541-873628b263f7\\platform-tools_r32.0.0-windows.zip"}
+{"timestamp":"2024-10-24T17:55:15.345Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-10-24T17:55:15.346Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-10-24T17:55:15.346Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-10-24T17:55:15.346Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum check: Passed"}
+{"timestamp":"2024-10-24T17:55:15.346Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-10-24T17:55:15.348Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"beforeModuleInstallation"}
+{"timestamp":"2024-10-24T17:55:15.349Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"Creating the folder of android-sdk-platform-tools-32.0.0, if needed: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK"}
+{"timestamp":"2024-10-24T17:55:15.349Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"execInstaller"}
+{"timestamp":"2024-10-24T17:55:15.349Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"installFromZip"}
+{"timestamp":"2024-10-24T17:55:16.910Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"unzip finished"}
+{"timestamp":"2024-10-24T17:55:16.911Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"afterModuleInstallation"}
+{"timestamp":"2024-10-24T17:55:16.912Z","level":"info","moduleName":"InstallerWinProcess","pid":49068,"message":"Updating modules.json file at: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:55:21.349Z","level":"debug","moduleName":"InstallerWinProcess","pid":49068,"message":"Validation strategy: {\"destination\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2022.3.47f1\",\"destinationFilename\":\"commandlinetools-win-8092744_latest.zip\",\"installerFilename\":\"commandlinetools-win-8092744_latest.zip\",\"installerPath\":\"C:\\\\Users\\\\Erandeni\\\\AppData\\\\Local\\\\Temp\\\\unityhub-b928c5f0-922f-11ef-a541-873628b263f7\",\"installerSizeInBytes\":119629490,\"type\":1,\"uid\":\"android-sdk-command-line-tools-6.0\",\"editorUniqueId\":{\"version\":\"2022.3.47f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-10-24T17:55:21.349Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-10-24T17:55:21.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-10-24T17:55:21.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying installation type: EDITOR_MODULE"}
+{"timestamp":"2024-10-24T17:55:21.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying the module destination... id: 'android-sdk-command-line-tools-6.0', destination: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/cmdline-tools"}
+{"timestamp":"2024-10-24T17:55:21.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Editor Module Installation Destination Check: Passed"}
+{"timestamp":"2024-10-24T17:55:21.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying selected value of module in modules.json at C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:55:21.351Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"modules.json Check: Passed"}
+{"timestamp":"2024-10-24T17:55:21.351Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-10-24T17:55:21.351Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/cmdline-tools"}
+{"timestamp":"2024-10-24T17:55:21.352Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-10-24T17:55:21.352Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-10-24T17:55:21.352Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Required space: 119629490 bytes / 114.09 MB..."}
+{"timestamp":"2024-10-24T17:55:21.352Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available disk Space: 235269292032 bytes"}
+{"timestamp":"2024-10-24T17:55:21.352Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-10-24T17:55:21.352Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-10-24T17:55:21.352Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\Erandeni\\AppData\\Local\\Temp\\unityhub-b928c5f0-922f-11ef-a541-873628b263f7\\commandlinetools-win-8092744_latest.zip"}
+{"timestamp":"2024-10-24T17:55:21.352Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-10-24T17:55:21.353Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-10-24T17:55:21.353Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-10-24T17:55:21.353Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum check: Passed"}
+{"timestamp":"2024-10-24T17:55:21.353Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-10-24T17:55:21.355Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"beforeModuleInstallation"}
+{"timestamp":"2024-10-24T17:55:21.355Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"Creating the folder of android-sdk-command-line-tools-6.0, if needed: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/cmdline-tools"}
+{"timestamp":"2024-10-24T17:55:21.355Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"execInstaller"}
+{"timestamp":"2024-10-24T17:55:21.355Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"installFromZip"}
+{"timestamp":"2024-10-24T17:55:22.140Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"unzip finished"}
+{"timestamp":"2024-10-24T17:55:22.140Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"afterModuleInstallation"}
+{"timestamp":"2024-10-24T17:55:22.145Z","level":"info","moduleName":"InstallerWinProcess","pid":49068,"message":"Updating modules.json file at: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:55:27.350Z","level":"debug","moduleName":"InstallerWinProcess","pid":49068,"message":"Validation strategy: {\"destination\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2022.3.47f1\",\"destinationFilename\":\"platform-34-ext7_r02.zip\",\"installerFilename\":\"platform-34-ext7_r02.zip\",\"installerPath\":\"C:\\\\Users\\\\Erandeni\\\\AppData\\\\Local\\\\Temp\\\\unityhub-b9291410-922f-11ef-a541-873628b263f7\",\"installerSizeInBytes\":63180079,\"type\":1,\"uid\":\"android-sdk-platforms-34\",\"editorUniqueId\":{\"version\":\"2022.3.47f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-10-24T17:55:27.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-10-24T17:55:27.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-10-24T17:55:27.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying installation type: EDITOR_MODULE"}
+{"timestamp":"2024-10-24T17:55:27.350Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying the module destination... id: 'android-sdk-platforms-34', destination: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/platforms"}
+{"timestamp":"2024-10-24T17:55:27.351Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Editor Module Installation Destination Check: Passed"}
+{"timestamp":"2024-10-24T17:55:27.351Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying selected value of module in modules.json at C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:55:27.352Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"modules.json Check: Passed"}
+{"timestamp":"2024-10-24T17:55:27.352Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-10-24T17:55:27.352Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/platforms"}
+{"timestamp":"2024-10-24T17:55:27.353Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-10-24T17:55:27.354Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-10-24T17:55:27.354Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Required space: 63180079 bytes / 60.25 MB..."}
+{"timestamp":"2024-10-24T17:55:27.354Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available disk Space: 235246723072 bytes"}
+{"timestamp":"2024-10-24T17:55:27.354Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-10-24T17:55:27.354Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-10-24T17:55:27.354Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\Erandeni\\AppData\\Local\\Temp\\unityhub-b9291410-922f-11ef-a541-873628b263f7\\platform-34-ext7_r02.zip"}
+{"timestamp":"2024-10-24T17:55:27.354Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-10-24T17:55:27.354Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-10-24T17:55:27.354Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-10-24T17:55:27.354Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum check: Passed"}
+{"timestamp":"2024-10-24T17:55:27.354Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-10-24T17:55:27.356Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"beforeModuleInstallation"}
+{"timestamp":"2024-10-24T17:55:27.356Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"Creating the folder of android-sdk-platforms-34, if needed: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/platforms"}
+{"timestamp":"2024-10-24T17:55:27.357Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"execInstaller"}
+{"timestamp":"2024-10-24T17:55:27.357Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"installFromZip"}
+{"timestamp":"2024-10-24T17:55:38.371Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"unzip finished"}
+{"timestamp":"2024-10-24T17:55:38.372Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"afterModuleInstallation"}
+{"timestamp":"2024-10-24T17:55:38.374Z","level":"info","moduleName":"InstallerWinProcess","pid":49068,"message":"Updating modules.json file at: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:55:39.370Z","level":"debug","moduleName":"InstallerWinProcess","pid":49068,"message":"Validation strategy: {\"destination\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2022.3.47f1\",\"destinationFilename\":\"android-ndk-r23b-windows.zip\",\"installerFilename\":\"android-ndk-r23b-windows.zip\",\"installerPath\":\"C:\\\\Users\\\\Erandeni\\\\AppData\\\\Local\\\\Temp\\\\unityhub-b92802a0-922f-11ef-a541-873628b263f7\",\"installerSizeInBytes\":752000000,\"type\":1,\"uid\":\"android-ndk-r23b\",\"editorUniqueId\":{\"version\":\"2022.3.47f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-10-24T17:55:39.370Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-10-24T17:55:39.370Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-10-24T17:55:39.370Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying installation type: EDITOR_MODULE"}
+{"timestamp":"2024-10-24T17:55:39.370Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying the module destination... id: 'android-ndk-r23b', destination: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"}
+{"timestamp":"2024-10-24T17:55:39.371Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Editor Module Installation Destination Check: Passed"}
+{"timestamp":"2024-10-24T17:55:39.371Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying selected value of module in modules.json at C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
+{"timestamp":"2024-10-24T17:55:39.372Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"modules.json Check: Passed"}
+{"timestamp":"2024-10-24T17:55:39.372Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-10-24T17:55:39.372Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"}
+{"timestamp":"2024-10-24T17:55:39.373Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-10-24T17:55:39.373Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-10-24T17:55:39.373Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Required space: 752000000 bytes / 717.16 MB..."}
+{"timestamp":"2024-10-24T17:55:39.373Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available disk Space: 235162927104 bytes"}
+{"timestamp":"2024-10-24T17:55:39.373Z","level":"debug","moduleName":"Disk Validation Strategy","pid":49068,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-10-24T17:55:39.373Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-10-24T17:55:39.373Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\Erandeni\\AppData\\Local\\Temp\\unityhub-b92802a0-922f-11ef-a541-873628b263f7\\android-ndk-r23b-windows.zip"}
+{"timestamp":"2024-10-24T17:55:39.373Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-10-24T17:55:39.374Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-10-24T17:55:39.374Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-10-24T17:55:39.374Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Checksum check: Passed"}
+{"timestamp":"2024-10-24T17:55:39.374Z","level":"info","moduleName":"Disk Validation Strategy","pid":49068,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-10-24T17:55:39.375Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"beforeModuleInstallation"}
+{"timestamp":"2024-10-24T17:55:39.376Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"Creating the folder of android-ndk-r23b, if needed: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"}
+{"timestamp":"2024-10-24T17:55:39.376Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"execInstaller"}
+{"timestamp":"2024-10-24T17:55:39.376Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"installFromZip"}
+{"timestamp":"2024-10-24T17:56:25.244Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"unzip finished"}
+{"timestamp":"2024-10-24T17:56:25.245Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":49068,"message":"afterModuleInstallation"}
+{"timestamp":"2024-10-24T17:56:25.284Z","level":"info","moduleName":"InstallerWinProcess","pid":49068,"message":"Updating modules.json file at: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\modules.json"}
